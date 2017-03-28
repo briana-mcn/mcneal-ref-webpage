@@ -1,0 +1,18 @@
+{% extends 'homepage/base.html' %}
+    {% block content %}
+        <div class="col-md-8">
+            <div class="info">
+                <p>With over 30 years of experience providing HVAC services to the heart of the Midwest,
+                McNeal's Refrigeration is here to provide you with outstanding quality and support for your refrigeration, air conditioning and heating needs.</p>
+            </div>
+            <div class="info">
+                <p>Our extended work in the field has made us made us the experts in the installation and maintenance of HVAC equipment.
+                    We specialize in grocery store refrigeration and small business support. We only install trusted brand names
+                    sourced from the vendor and locally operated suppliers to provide you with the highest quality equipment at affordable pricing.</p>
+            </div>
+            <div class="info">
+                <p><a href="{% url 'contact' %}">Please contact us for more information or a quote for your heating and cooling needs!</a></p>
+            </div>
+        </div>
+
+    {% endblock %}

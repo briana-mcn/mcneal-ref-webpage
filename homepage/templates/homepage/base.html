@@ -1,0 +1,41 @@
+{% load staticfiles %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>McNeal's Refrigeration</title>
+    <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css">
+    <link rel="stylesheet" href="{% static 'css/homepage.css' %}">
+    <link href="https://fonts.googleapis.com/css?family=Francois+One" rel="stylesheet">
+
+</head>
+<body>
+    <div class="page-header">
+        <div><h1><a href="/ ">McNeal's Refrigeration</a></h1></div>
+        <p><em>Your 24/7 Heating and Refrigeration Specialist, Serving Linn County and Surrounding Areas Since 2001</em></p>
+
+        <div id="contact-shortcut">
+            <p>Phone: 319-329-4835</p>
+            <p>Email: mcnealref@gmail.com</p>
+        </div>
+        <div id="tab">
+            <p>Meet Our Team</p>
+            <p>Contact</p>
+        </div>
+
+    </div>
+    <div class="content container-fluid">
+        <div class="row">
+            {% block content %}
+            {% endblock %}
+        </div>
+    </div>
+
+
+
+<script>
+</script>
+</body>
+</html>
