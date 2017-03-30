@@ -1,15 +1,57 @@
 body {
-    background-color: #2cb722;
+    background-color: #219B22;
     font-family: 'Francois One', sans-serif;
 }
 
-.page-header {
-    background-color: #219b18;
-    margin-top: 0;
-    padding: 20px 20px 20px 40px;
+p{
+    color: black;
 }
-a {
-    color: #0f0f0f;
-    text-decoration: none;
 
+a {
+    color: black;
 }
+.employ h3{
+    color: inherit;
+}
+#page-header{
+    background-color: #219B22;
+    margin-top: 0;
+    margin-bottom: 31px;
+    padding: 20px 20px 0px 40px;
+    border-bottom: 1px solid darkgreen;
+}
+
+#left-header {
+    display: inline-flex;
+}
+
+#contact-shortcut{
+    padding-right: 10px;
+}
+
+.nav-tabs{
+    border-bottom: none;
+}
+.nav-tabs li a {
+    margin-right: 9px;
+    border: 1px solid darkgreen;
+    border-bottom-color: transparent;
+}
+
+.nav-tabs li a:hover {
+    background-color: greenyellow;
+    color: black;
+    border-color: inherit;
+    opacity: 0.5;
+}
+
+#text-header h1 a{
+    color: black;
+    text-decoration: none;
+}
+
+#contact-homepage a:hover{
+    color: black;
+    text-decoration: none;
+}
+

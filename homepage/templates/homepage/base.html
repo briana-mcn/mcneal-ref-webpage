@@ -12,20 +12,38 @@
 
 </head>
 <body>
-    <div class="page-header">
-        <div><h1><a href="/ ">McNeal's Refrigeration</a></h1></div>
-        <p><em>Your 24/7 Heating and Refrigeration Specialist, Serving Linn County and Surrounding Areas Since 2001</em></p>
-
-        <div id="contact-shortcut">
-            <p>Phone: 319-329-4835</p>
-            <p>Email: mcnealref@gmail.com</p>
+    <div class="container-fluid" id="page-header">
+        <div class="row" id="header-row">
+          <div class="pull-left" id="left-header">
+            <a class="navbar-brand" href="#">
+              <!--<img src="" height="20px" width="20px">-->
+            </a>
+            <div id="text-header">
+                <h1><a href="/ ">McNeal's Refrigeration</a></h1>
+                <h6><em>Your 24/7 Heating and Refrigeration Specialist, Serving Linn County and Surrounding Areas Since 2001</em></h6>
+            </div>
+          </div>
+            <div class="pull-right" id="contact-shortcut">
+            <h5>Phone: 319-329-4835 <br>
+                Email: mcnealref@gmail.com</h5>
+          </div>
         </div>
-        <div id="tab">
-            <p>Meet Our Team</p>
-            <p>Contact</p>
-        </div>
 
+        <div class="row">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="myNavbar">
+            <ul class="nav nav-tabs navbar-right ">
+                <li><a href="{% url 'team' %}">Meet Our Team</a></li>
+                <li><a href="{% url 'contact' %}">Contact</a></li>
+            </ul>
+          </div>
+        </div>
     </div>
+
     <div class="content container-fluid">
         <div class="row">
             {% block content %}
@@ -35,7 +53,11 @@
 
 
 
+
+
 <script>
 </script>
 </body>
 </html>
+
+
