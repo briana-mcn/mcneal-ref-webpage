@@ -10,6 +10,7 @@ p{
 a {
     color: black;
 }
+
 .employ h3{
     color: inherit;
 }
@@ -55,3 +56,7 @@ a {
     text-decoration: none;
 }
 
+
+#map{
+    padding-right: 90px;
+}
