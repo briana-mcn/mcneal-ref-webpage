@@ -70,7 +70,15 @@ a {
     opacity: 0.9;
 }
 
-.container-fluid .text-muted{
+.text-muted{
     margin: 20px 0;
     color: inherit;
 }
+
+.bbb-logo .img-responsive {
+    margin-top:2px;
+    height: 53px;
+    width: 43px;
+
+}
+
