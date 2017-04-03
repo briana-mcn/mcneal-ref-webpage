@@ -57,6 +57,20 @@ a {
 }
 
 
-#map{
+#contact-map{
     padding-right: 90px;
+}
+
+.footer{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 60px;
+    background-color: #147e17;
+    opacity: 0.9;
+}
+
+.container-fluid .text-muted{
+    margin: 20px 0;
+    color: inherit;
 }

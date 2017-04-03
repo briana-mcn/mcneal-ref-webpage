@@ -31,13 +31,10 @@ ALLOWED_HOSTS = ['127.0.0.1', '.pythonanywhere.com', '.mcnealsrefrigeration.com'
 # Application definition
 
 INSTALLED_APPS = [
-    # 'django.contrib.admin',
+    'django.contrib.admin',
     'django.contrib.auth',
-    # tracks all models:
     'django.contrib.contenttypes',
-    # send and recieve arbitrary data:
     'django.contrib.sessions',
-    # one time notification i.e form submission
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'homepage',
