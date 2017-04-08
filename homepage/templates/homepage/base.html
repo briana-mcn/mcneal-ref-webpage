@@ -14,36 +14,24 @@
 </head>
 
 <body>
-    <div class="container-fluid" id="page-header">
-        <div class="row">
-            <div class="pull-left" id="left-header">
-                <a class="brand" href="/">
-                    <img class="header-logo" src="{% static 'images/logo-clean.png' %}" alt="Header Logo">
-                </a>
-                <div id="text-header">
-                    <h1><a href="/">McNeal's Refrigeration Inc.</a></h1>
-                    <h6><em>Your 24/7 Heating and Refrigeration Specialist, Serving Linn County and Surrounding Areas Since 2001</em></h6>
-                </div>
-            </div>
-            <div class="pull-right" id="contact-shortcut">
-                <h5>Phone: 319-329-4835 <br>
-                Email: mcnealref@gmail.com</h5>
-            </div>
-        </div>
 
-        <div class="row">
-          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="myNavbar">
-            <ul class="nav nav-tabs navbar-right ">
-                <li><a href="{% url 'team' %}">Meet Our Team</a></li>
-                <li><a href="{% url 'contact' %}">Contact</a></li>
-            </ul>
-          </div>
-        </div>
+    <div class="container-fluid" id="page-header">
+		<div class="row">
+			<div class="pull-left" id="left-header">
+				<a class="brand" href="/">
+					<img class="header-logo" src="{% static 'images/logo-clean.png' %}" alt="Header Logo">
+				</a>
+				<div id="text-header">
+					<h1><a href="/">McNeal's Refrigeration Inc.</a></h1>
+					<h6><em>Your 24/7 Heating and Refrigeration Specialist,
+                        Serving Linn County and Surrounding Areas Since 2001</em></h6>
+				</div>
+			</div>
+			<div class="pull-right" id="contact-shortcut">
+				<h5>Phone: 319-329-4835 <br>
+				Email: mcnealref@gmail.com</h5>
+			</div>
+		</div>
     </div>
 
     <div class="content container-fluid">
@@ -55,15 +43,19 @@
 
     <footer class="footer">
         <div class="container">
-            <div class="row">
-                <div class="col-md-12 text-center">
-                    <p class="text-muted">Thank you for visiting McNeal's Refrigeration Website</p>
-                </div>
+            <div class="navbar-header navbar-right">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
             </div>
-            <div class="row">
-                <div class="col-md-12 bbb-logo">
-                    <a href="https://www.bbb.org/iowa/business-reviews/refrigeration-equipment-commercial-sales-and-service/mcneals-refrigeration-in-cedar-rapids-ia-32054155"><img class="img-responsive center-block" src="{% static 'images/bbb-logo.jpg' %}" alt="BBB Logo"></a>
-                </div>
+            <div class="collapse navbar-collapse" id="myNavbar">
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="{% url 'team' %}">Meet Our Team</a></li>
+                    <li><a href="{% url 'contact' %}">Contact</a></li>
+                </ul>
             </div>
         </div>
     </footer>
