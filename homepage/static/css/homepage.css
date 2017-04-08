@@ -11,9 +11,15 @@ a {
     color: black;
 }
 
-.employ h3{
-    color: inherit;
+/*header*/
+
+.header-logo{
+    height: 100px;
+    width: 100px;
+    padding-top: 6px;
+    padding-right: 2px;
 }
+
 #page-header{
     background-color: #219B22;
     margin-top: 0;
@@ -61,6 +67,9 @@ a {
     padding-right: 90px;
 }
 
+.employ h3{
+    color: inherit;
+}
 
 /*footer css*/
 
