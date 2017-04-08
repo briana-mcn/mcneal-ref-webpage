@@ -61,13 +61,16 @@ a {
     padding-right: 90px;
 }
 
+
+/*footer css*/
+
 .footer{
-    position: absolute;
     bottom: 0;
     width: 100%;
-    height: 60px;
     background-color: #147e17;
     opacity: 0.9;
+    padding: 40px 0px;
+    margin-top: 50px;
 }
 
 .text-muted{
@@ -75,10 +78,10 @@ a {
     color: inherit;
 }
 
-.bbb-logo .img-responsive {
+.bbb-logo .img-responsive{
     margin-top:2px;
     height: 53px;
-    width: 43px;
+    width: 137px;
 
 }
 
