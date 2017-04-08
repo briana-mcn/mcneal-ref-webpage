@@ -34,14 +34,8 @@
 		</div>
     </div>
 
-    <div class="content container-fluid">
-        <div class="row">
-            {% block content %}
-            {% endblock %}
-        </div>
-    </div>
 
-    <footer class="footer">
+    <nav class="navbar navbar-default">
         <div class="container">
             <div class="navbar-header navbar-right">
                 <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
@@ -58,7 +52,29 @@
                 </ul>
             </div>
         </div>
-    </footer>
+    </nav>
+
+	<div class="content container-fluid">
+		<div class="row">
+			{% block content %}
+			{% endblock %}
+		</div>
+	</div>
+
+	<footer class="footer">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12 text-center">
+					<p class="text-muted">Thank you for visiting McNeal's Refrigeration Website</p>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-12 bbb-logo">
+					<a href="https://www.bbb.org/iowa/business-reviews/refrigeration-equipment-commercial-sales-and-service/mcneals-refrigeration-in-cedar-rapids-ia-32054155"><img class="img-responsive center-block" src="{% static 'images/bbb-logo.jpg' %}" alt="BBB Logo"></a>
+				</div>
+			</div>
+		</div>
+	</footer>
 
 
 
