@@ -21,11 +21,9 @@ a {
 }
 
 #page-header{
-    background-color: #219B22;
+    background-color: #318e14;
     margin-top: 0;
-    margin-bottom: 31px;
-    padding: 20px 20px 0px 40px;
-    border-bottom: 1px solid darkgreen;
+    padding: 40px 20px 45px 40px;
 }
 
 #left-header {
