@@ -1,15 +1,21 @@
 {% extends 'homepage/base.html' %}
     {% block content %}
-        <div class="col-md-4 contact-info">
-            <h3>Contact Us</h3>
-            <p>Phone: 319-329-4835</p>
-            <p>Send us an email: <a href="mailto:mcnealref@gmail.com?Subject=McNeal%20Refrigeration%20Inquiry">mcnealref@gmail.com</a></p>
-        </div>
-        <div class="col-md-8" id="contact-map">
-            <div class="pull-right">
-                <img width="550" src="https://maps.googleapis.com/maps/api/staticmap?center=Cedar+Rapids,+Ia&zoom=6&scale=false&size=550x400&maptype=roadmap&format=png&visual_refresh=true&markers=size:mid%7Ccolor:0xff0000%7Clabel:%7CCedar+Rapids,+Ia" alt="Google Map of Cedar Rapids, Ia">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-6" id="contact-info">
+                    <h3 id="contact-us">Please contact us with a quote or questions:</h3>
+                    <br>
+                    <h4>By Phone: 319-329-4835</h4>
+                    <h4>Send us an email: <a href="mailto:mcnealref@gmail.com?Subject=McNeal's%20Refrigeration%20Inquiry">mcnealref@gmail.com</a></h4>
+                </div>
+                <div class="col-md-6">
+                    <div class="pull-right">
+                        <img class="site-maps img-responsive" width="550" src="https://maps.googleapis.com/maps/api/staticmap?center=Cedar+Rapids,+Ia&zoom=6&scale=false&size=550x400&maptype=roadmap&format=png&visual_refresh=true&markers=size:mid%7Ccolor:0xff0000%7Clabel:%7CCedar+Rapids,+Ia" alt="Google Map of Cedar Rapids, Ia">
+                    </div>
+                </div>
             </div>
         </div>
+
 
 
     {% endblock %}

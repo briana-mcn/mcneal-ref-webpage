@@ -1,21 +1,31 @@
 {% extends 'homepage/base.html' %}
     {% block content %}
-        <div class="col-md-8">
-            <div class="info">
-                <p>With over 30 years of experience providing HVAC services to the heart of the Midwest,
-                McNeal's Refrigeration is here to provide you with outstanding quality and support for your refrigeration, air conditioning and heating needs.</p>
-            </div>
-            <div class="info">
-                <p>Our extended work in the field has made us made us the experts in the installation and maintenance of HVAC equipment.
-                    We specialize in grocery store refrigeration and small business support. We only install trusted brand names
-                    sourced from the vendor and locally operated suppliers to provide you with the highest quality equipment at affordable pricing.</p>
-            </div>
-            <div class="info">
-                <p id="contact-homepage"><a href="{% url 'contact' %}">Please contact us for more information or a quote for your heating and cooling needs!</a></p>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-8" id="home-info">
+                    <div>
+                        <p>With over 30 years of experience providing HVAC services to the heart of the Midwest,
+                        McNeal's Refrigeration is here to provide you with outstanding quality and support for your refrigeration, air conditioning and heating needs.</p>
+                    </div>
+                    <br>
+                    <div class="info">
+                        <p>Our extended work in the field has made us made us the experts in the installation and maintenance of HVAC equipment.
+                            We specialize in grocery store refrigeration and small business support. We only install trusted brand names
+                            sourced from the vendor and locally operated suppliers to provide you with the highest quality equipment at affordable pricing.</p>
+                    </div>
+                    <br>
+                    <div class="info">
+                        <p id="contact-homepage"><a href="{% url 'contact' %}">Please contact us for more information or a quote for your heating and cooling needs!</a></p>
+                    </div>
+                </div>
             </div>
         </div>
-        <div class="col-md-4" id="home-map">
-            <img width="420" src="https://maps.googleapis.com/maps/api/staticmap?center=Cedar+Rapids,+Ia&zoom=6&scale=false&size=420x300&maptype=roadmap&format=png&visual_refresh=true&markers=size:mid%7Ccolor:0xff0000%7Clabel:%7CCedar+Rapids,+Ia" alt="Google Map of Cedar Rapids, Ia">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-4" >
+                    <img class="site-maps img-responsive" width="420" src="https://maps.googleapis.com/maps/api/staticmap?center=Cedar+Rapids,+Ia&zoom=6&scale=false&size=420x300&maptype=roadmap&format=png&visual_refresh=true&markers=size:mid%7Ccolor:0xff0000%7Clabel:%7CCedar+Rapids,+Ia" alt="Google Map of Cedar Rapids, Ia">
+                </div>
+            </div>
         </div>
 
     {% endblock %}
