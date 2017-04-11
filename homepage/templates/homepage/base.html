@@ -30,7 +30,7 @@
 
 
     <nav class="navbar navbar-default">
-        <div class="container">
+        <div class="container-fluid">
             <div class="navbar-header navbar-right">
                 <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
                     <span class="sr-only">Toggle navigation</span>
@@ -41,6 +41,7 @@
             </div>
             <div class="collapse navbar-collapse" id="myNavbar">
                 <ul class="nav navbar-nav navbar-right">
+                    <li><a href="{% url 'home'%}"></a>Home</li>
                     <li><a href="{% url 'team' %}">Meet Our Team</a></li>
                     <li><a href="{% url 'contact' %}">Contact</a></li>
                 </ul>
