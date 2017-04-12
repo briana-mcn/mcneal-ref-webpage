@@ -81,11 +81,11 @@ p{
 /*home html*/
 
 #contact-homepage a {
-    color: black;
+    color: inherit;
 }
 
 #contact-homepage a:hover{
-    color: black;
+    opacity: 0.7;
     text-decoration: none;
 }
 
