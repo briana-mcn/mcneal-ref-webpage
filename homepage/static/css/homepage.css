@@ -40,31 +40,33 @@ p{
 
 /*navbar*/
 
-.nav-tabs{
-    border-bottom: none;
-}
-.nav-tabs li a {
-    margin-right: 9px;
-    border: 1px solid darkgreen;
-    border-bottom-color: transparent;
-}
+    /*.nav-tabs{*/
+        /*border-bottom: none;*/
+    /*}*/
+/*.nav-tabs li a {*/
+    /*margin-right: 9px;*/
+    /*border: 1px solid darkgreen;*/
+    /*border-bottom-color: transparent;*/
+/*}*/
 
-.nav-tabs li a:hover {
-    background-color: greenyellow;
-    color: black;
-    border-color: inherit;
-    opacity: 0.5;
-}
+/*.nav-tabs li a:hover {*/
+    /*background-color: greenyellow;*/
+    /*color: black;*/
+    /*border-color: inherit;*/
+    /*opacity: 0.5;*/
+/*}*/
 
 /*footer css*/
 
 .footer{
     bottom: 0;
     width: 100%;
-    background-color: #147e17;
+    background-color: white;
     opacity: 0.9;
-    padding: 40px 0px;
+    padding: 30px 0px;
     margin-top: 150px;
+    border-top: 6px #318e14 solid;
+    border-bottom: 1px #318e14 solid ;
 }
 
 .text-muted{
@@ -72,7 +74,7 @@ p{
     color: inherit;
 }
 
-.bbb-logo .img-responsive{
+.bbb-logo img{
     margin-top:2px;
     height: 53px;
     width: 137px;
