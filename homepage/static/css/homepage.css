@@ -64,7 +64,7 @@ p{
     background-color: #147e17;
     opacity: 0.9;
     padding: 40px 0px;
-    margin-top: 50px;
+    margin-top: 150px;
 }
 
 .text-muted{
@@ -105,4 +105,19 @@ p{
     color: black;
 }
 
+
+
+section #years, #home-map{
+    padding: 40px 120px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+section div:nth-child(2) {
+    background-color: rgba(49, 142, 20, 0.06);
+}
+
+.navbar{
+    margin-bottom: 0;
+}
 

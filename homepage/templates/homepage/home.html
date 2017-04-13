@@ -1,25 +1,35 @@
 {% extends 'homepage/base.html' %}
     {% block content %}
         <section>
-            <div class="container text-center content">
-                <h3>Our team at McNeal's Refrigeration has over 30 years of experience providing
-                    commercial heating and refrigeration services to the heart of the Midwest.</h3>
+            <div class="section-content">
+                <div class="container text-center content" id="years">
+                    <h3>Our team at McNeal's Refrigeration has over 30 years of experience providing
+                        commercial heating and refrigeration services to the heart of the Midwest.</h3>
+                </div>
             </div>
-            <div class="container text-center content" >
-                <img class="site-maps img-responsive center-block" width="420"
-                 src="https://maps.googleapis.com/maps/api/staticmap?center=Cedar+Rapids,+Ia&zoom=6&scale=false&size=420x300&maptype=roadmap&format=png&visual_refresh=true&markers=size:mid%7Ccolor:0xff0000%7Clabel:%7CCedar+Rapids,+Ia"
-                 alt="Google Map of Cedar Rapids, Ia">
+            <div class="section-content">
+                <div class="container content" id="home-map">
+                    <img class="site-maps img-responsive center-block" width="420"
+                     src="https://maps.googleapis.com/maps/api/staticmap?center=Cedar+Rapids,+Ia&zoom=6&scale=false&size=420x300&maptype=roadmap&format=png&visual_refresh=true&markers=size:mid%7Ccolor:0xff0000%7Clabel:%7CCedar+Rapids,+Ia"
+                     alt="Google Map of Cedar Rapids, Ia">
+                </div>
             </div>
-            <div class="container text-center content">
-                <h3>Our extended work in the field has made us experts
-                    in the installation and maintenance of HVAC equipment.
-                    Specifically, we specialize in grocery store refrigeration and restaurant support.</h3>
+            <div class="section-content">
+                <div class="container text-center content">
+                    <h3>Our extended work in the field has made us experts
+                        in the installation and maintenance of HVAC equipment.
+                        Specifically, we specialize in grocery store refrigeration and restaurant support.</h3>
+                </div>
             </div>
-            <div class="container text-center content">
-                <h3>We only install trusted brand name equipment.</h3>
+            <div class="section-content">
+                <div class="container text-center content">
+                    <h3>We only install trusted brand name equipment.</h3>
+                </div>
             </div>
-            <div class="container text-center content">
-                <h3 id="contact-homepage"><a href="{% url 'contact' %}">Please contact us for a quote!</a></h3>
+            <div class="section-content">
+                <div class="container text-center content">
+                    <h3 id="contact-homepage"><a href="{% url 'contact' %}">Please contact us for a quote!</a></h3>
+                </div>
             </div>
         </section>
     {% endblock %}
