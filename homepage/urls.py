@@ -1,10 +1,10 @@
-from django.conf.urls import url
+from django.urls import include, re_path
 
 from . import views
 
 urlpatterns = [
-    url(r'^$', views.home, name='home'),
-    url(r'^contact/$', views.contact, name='contact'),
-    url(r'^team/$', views.team, name='team'),
+    re_path(r'^$', views.home, name='home'),
+    re_path(r'^contact/$', views.contact, name='contact'),
+    re_path(r'^team/$', views.team, name='team'),
 
 ]
